@@ -39,14 +39,20 @@ body {
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 	border-radius: 0.6rem;
 }
+form{
+	display: grid;
+	place-items: center;
+	
+}
 .form-group {
-	padding: 0 0 1rem 2.4rem;
+	width: 100%;
 	list-style: none;
 	display: flex;
 	justify-content: center;
 	align-items: start;
 	flex-direction: column;
 	gap: 0.2rem;
+	
 }
 .form-list input {
 	font-size: 1.8rem;
@@ -70,10 +76,13 @@ body {
 .form-list label {
 	display: block;
 	font-size: 1.8rem;
-	/* padding-left: 2rem; */
+	padding-left: 2rem;
 	margin-top: 0.6rem;
 	transition: all 0.3s;
 	color: #333;
+}
+#message{
+padding-left: 0;
 }
 .form-list input:placeholder-shown + label {
 	opacity: 0;
