@@ -25,17 +25,22 @@ body {
 		rgb(27, 24, 223),
 		rgb(9, 197, 100)
 	);
+	transition: all .3s;
+}
+.heading-primary:hover{
+	transform: skewY(2deg) skewX(15deg) scale(1.1);
+	box-shadow: .5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .form {
-	max-width: 30rem;
+	max-width: 25rem;
 	margin: 10rem auto;
 	background-image: linear-gradient(
 		to right bottom,
 		rgba(0, 0, 0, 0.4),
 		rgba(255, 255, 255, 0.4)
 	);
-	padding: 2rem 4rem;
+	padding: 2rem 5rem;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 	border-radius: 0.6rem;
 }
@@ -52,6 +57,7 @@ form{
 	align-items: start;
 	flex-direction: column;
 	gap: 0.2rem;
+	padding-left: 0;
 	
 }
 .form-list input {
