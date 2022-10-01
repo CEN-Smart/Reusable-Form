@@ -25,11 +25,11 @@ body {
 		rgb(27, 24, 223),
 		rgb(9, 197, 100)
 	);
-	transition: all .3s;
+	transition: all 0.3s;
 }
-.heading-primary:hover{
+.heading-primary:hover {
 	transform: skewY(2deg) skewX(15deg) scale(1.1);
-	box-shadow: .5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+	box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .form {
@@ -44,10 +44,9 @@ body {
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 	border-radius: 0.6rem;
 }
-form{
+form {
 	display: grid;
 	place-items: center;
-	
 }
 .form-group {
 	width: 100%;
@@ -58,7 +57,6 @@ form{
 	flex-direction: column;
 	gap: 0.2rem;
 	padding-left: 0;
-	
 }
 .form-list input {
 	font-size: 1.8rem;
@@ -87,8 +85,8 @@ form{
 	transition: all 0.3s;
 	color: #333;
 }
-#message{
-padding-left: 0;
+#message {
+	padding-left: 0;
 }
 .form-list input:placeholder-shown + label {
 	opacity: 0;
@@ -98,6 +96,12 @@ padding-left: 0;
 .form-list input::-webkit-input-placeholder {
 	font-family: inherit;
 	color: #999;
+}
+
+textarea {
+	resize: none;
+	font-family: inherit;
+	border: none;
 }
 .form-radio {
 	display: flex;
