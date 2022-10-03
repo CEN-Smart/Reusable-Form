@@ -173,9 +173,9 @@ textarea {
 
 .btns button:hover {
 	color: #333;
-	transform: translateY(-1rem);
+	
 }
 .btns button:active {
 	color: rgb(8, 88, 8);
-	transform: translateY(-0.2rem);
+	transform:scale(.8) 
 }
